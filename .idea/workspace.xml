@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="Fixed class Citizen">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/_main/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/City.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Country.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/District.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Region.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Citizen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,12 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689104795485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed class Citizen">
+      <option name="closed" value="true" />
+      <created>1689533140562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689533140562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create class Citizen without link to Country" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create class Citizen without link to Country" />
+    <MESSAGE value="Fixed class Citizen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed class Citizen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
