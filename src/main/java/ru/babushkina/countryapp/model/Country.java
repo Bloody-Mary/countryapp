@@ -91,7 +91,20 @@ public class Country {
         }
     }
 
+    @Override
     public String toString() {
-        return "Государство: " + name + ", " + "Столица: Москва" +  "Области: " + regions + "Граждане: " + citizens;
+        StringBuilder sb = new StringBuilder();
+        sb.append("Страна: ").append(name).append("\n");
+        sb.append("Столица: ").append(capital.getName()).append("\n");
+        sb.append("Регионы:\n");
+        for (Region region : regions) {
+            sb.append("  - ").append(region.getName()).append("\n");
+        }
+        sb.append("Граждане:\n");
+        for (Citizen citizen : citizens) {
+            sb.append("  - ").append(citizen).append("\n");
+        }
+        return sb.toString();
     }
+
 }
