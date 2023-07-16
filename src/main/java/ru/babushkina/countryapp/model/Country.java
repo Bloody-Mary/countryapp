@@ -90,4 +90,8 @@ public class Country {
             }
         }
     }
+
+    public String toString() {
+        return "Государство: " + name + ", " + "Столица: Москва" +  "Области: " + regions + "Граждане: " + citizens;
+    }
 }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="Fixed class Citizen">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/_main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/_main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/_main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Country.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689536922501</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created and updated class Main">
+      <option name="closed" value="true" />
+      <created>1689538068936</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689538068936</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,7 +229,8 @@
     <MESSAGE value="Created and updated class District" />
     <MESSAGE value="Fixed class Country" />
     <MESSAGE value="Fixed class Citizen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed class Citizen" />
+    <MESSAGE value="Created and updated class Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and updated class Main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
