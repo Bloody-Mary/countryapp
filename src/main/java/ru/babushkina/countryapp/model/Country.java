@@ -6,7 +6,6 @@ import java.util.Random;
 
 public class Country {
     private static Country instance;
-
     private final String name;
     private final City capital;
     private final List<Region> regions;
@@ -24,20 +23,17 @@ public class Country {
         if (instance == null) {
             City capital = new City("Москва", 2561.5);
             List<Region> regions = new ArrayList<>();
-
             Region region1 = new Region("Московская область", 45800, "Москва");
             Region region2 = new Region("Смоленская область", 49800, "Смоленск");
             Region region3 = new Region("Ленинградская область", 83900, "Санкт-Петербург");
             Region region4 = new Region("Новосибирская область", 177800, "Новосибирск");
             Region region5 = new Region("Магаданская область", 462464, "Магадан");
-
+            instance = new Country("Россия", capital, regions);
             regions.add(region1);
             regions.add(region2);
             regions.add(region3);
             regions.add(region4);
             regions.add(region5);
-
-            instance = new Country("Россия", capital, regions);
         }
         return instance;
     }
