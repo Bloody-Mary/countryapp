@@ -25,11 +25,11 @@ public class Country {
             City capital = new City("Москва", 2561.5);
             List<Region> regions = new ArrayList<>();
 
-            Region region1 = new Region("Московская область", 45800);
-            Region region2 = new Region("Смоленская область", 49800);
-            Region region3 = new Region("Ленинградская область", 83900);
-            Region region4 = new Region("Новосибирская область", 177800);
-            Region region5 = new Region("Магаданская область", 462464);
+            Region region1 = new Region("Московская область", 45800, "Москва");
+            Region region2 = new Region("Смоленская область", 49800, "Смоленск");
+            Region region3 = new Region("Ленинградская область", 83900, "Санкт-Петербург");
+            Region region4 = new Region("Новосибирская область", 177800, "Новосибирск");
+            Region region5 = new Region("Магаданская область", 462464, "Магадан");
 
             regions.add(region1);
             regions.add(region2);
