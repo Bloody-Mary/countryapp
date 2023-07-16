@@ -107,4 +107,18 @@ public class Country {
         return sb.toString();
     }
 
+//    Вывод информации о Государстве без граждан
+//    @Override
+//    public String toString() {
+//        StringBuilder sb = new StringBuilder();
+//        sb.append("Страна: ").append(name).append("\n");
+//        sb.append("Столица: ").append(capital.getName()).append("\n");
+//        sb.append("Регионы:\n");
+//        for (Region region : regions) {
+//            sb.append("  - ").append(region.getName()).append("\n");
+//        }
+//        return sb.toString();
+//    }
+
+
 }
