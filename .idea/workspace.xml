@@ -9,7 +9,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/City.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/District.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +165,32 @@
       <option name="project" value="LOCAL" />
       <updated>1689534006094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed class Country">
+      <option name="closed" value="true" />
+      <created>1689535432492</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689535432492</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated class Country">
+      <option name="closed" value="true" />
+      <created>1689536046717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689536046717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create class Citizen without link to Country" />
     <MESSAGE value="Fixed class Citizen" />
     <MESSAGE value="Created and updated class Country" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created and updated class Country" />
+    <MESSAGE value="Fixed class Country" />
+    <MESSAGE value="Updated class Country" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated class Country" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
