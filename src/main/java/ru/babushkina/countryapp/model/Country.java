@@ -54,6 +54,10 @@ public class Country {
         return citizens;
     }
 
+    public String getName() {
+        return name;
+    }
+
     private void generateCitizens() {
         Random random = new Random();
         for (int i = 0; i < 100; i++) {
