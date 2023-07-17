@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/view/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/District.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/District.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +311,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689595664825</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Moved class District from .country.model package to country.model.entity package">
+      <option name="closed" value="true" />
+      <created>1689595798710</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689595798710</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Created class MainView">
+      <option name="closed" value="true" />
+      <created>1689595910036</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689595910036</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -333,7 +349,9 @@
     <MESSAGE value="Updated class Country" />
     <MESSAGE value="Updated and moved class Main to _main package" />
     <MESSAGE value="Created class MainController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class MainController" />
+    <MESSAGE value="Moved class District from .country.model package to country.model.entity package" />
+    <MESSAGE value="Created class MainView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created class MainView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
