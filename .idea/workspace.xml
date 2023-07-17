@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="">
+    <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="Added new methos test file CountryTest">
       <change beforePath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       <recent name="ru.babushkina.countryapp.model.util" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CountryTest">
+  <component name="RunManager" selected="TestNG.CountryTest.testToString">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.babushkina.countryapp.model.entity.Main" />
       <module name="countryapp" />
@@ -77,19 +77,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.babushkina.countryapp.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.babushkina.countryapp.model.util.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.babushkina.countryapp.model.util.Main" />
-      <module name="countryapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.babushkina.countryapp.model.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +133,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountryTest.testToString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="countryapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.entity" />
+      <option name="MAIN_CLASS_NAME" value="model.entity.CountryTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CountryTest.testToString" />
         <item itemvalue="TestNG.CountryTest" />
         <item itemvalue="JUnit.CountryTest" />
         <item itemvalue="TestNG.CitizenTest" />
         <item itemvalue="Application.ru.babushkina.countryapp._main.Main" />
-        <item itemvalue="Application.ru.babushkina.countryapp.model.util.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689626685715</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Updated class Country">
+      <option name="closed" value="true" />
+      <created>1689627002289</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689627002289</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -408,7 +421,6 @@
     <MESSAGE value="Updated class Region" />
     <MESSAGE value="Updated class Citizen" />
     <MESSAGE value="Updated class City" />
-    <MESSAGE value="Updated class Country" />
     <MESSAGE value="Updated and moved class Main to _main package" />
     <MESSAGE value="Created class MainController" />
     <MESSAGE value="Moved class District from .country.model package to country.model.entity package" />
@@ -417,7 +429,8 @@
     <MESSAGE value="Updated class Citizen and added testng to file pom.xml" />
     <MESSAGE value="Created test file CitizenTest" />
     <MESSAGE value="Updated test file CountryTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated test file CountryTest" />
+    <MESSAGE value="Updated class Country" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated class Country" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

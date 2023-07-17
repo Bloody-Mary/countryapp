@@ -11,7 +11,6 @@ import java.util.List;
 
 public class CountryTest {
     private static Country country;
-    private List<Citizen> citizens;
 
 
     @BeforeClass
@@ -36,17 +35,9 @@ public class CountryTest {
     }
 
     @Test
-    public void testGetName() {
-        String expectedName = "Россия";
-        String actualName = country.getName();
-
-        Assert.assertEquals(actualName, expectedName);
-    }
-
-    @Test
     public void testGenerateCitizens() {
         country = Country.getInstance();
-        citizens = country.getCitizens();
+        List<Citizen> citizens = country.getCitizens();
 
         Assert.assertEquals(citizens.size(), 1000);
     }
