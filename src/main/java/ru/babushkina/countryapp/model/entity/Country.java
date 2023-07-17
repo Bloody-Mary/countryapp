@@ -1,4 +1,4 @@
-package ru.babushkina.countryapp.model;
+package ru.babushkina.countryapp.model.entity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -100,14 +100,12 @@ public class Country {
         for (Region region : regions) {
             sb.append("  - ").append(region.getName()).append("\n");
         }
-        sb.append("Граждане:\n");
-        for (Citizen citizen : citizens) {
-            sb.append("  - ").append(citizen).append("\n");
-        }
         return sb.toString();
     }
+}
 
-//    Вывод информации о Государстве без граждан
+
+//    Вывод информации о Государстве с гражданами
 //    @Override
 //    public String toString() {
 //        StringBuilder sb = new StringBuilder();
@@ -117,8 +115,10 @@ public class Country {
 //        for (Region region : regions) {
 //            sb.append("  - ").append(region.getName()).append("\n");
 //        }
+//        sb.append("Граждане:\n");
+//        for (Citizen citizen : citizens) {
+//            sb.append("  - ").append(citizen).append("\n");
+//        }
 //        return sb.toString();
 //    }
 
-
-}
