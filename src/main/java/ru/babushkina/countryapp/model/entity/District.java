@@ -1,4 +1,4 @@
-package ru.babushkina.countryapp.model;
+package ru.babushkina.countryapp.model.entity;
 
 public class District {
     private final String name;
