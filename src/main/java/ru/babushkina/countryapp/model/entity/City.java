@@ -1,4 +1,4 @@
-package ru.babushkina.countryapp.model;
+package ru.babushkina.countryapp.model.entity;
 
 public class City {
     private final String name;
