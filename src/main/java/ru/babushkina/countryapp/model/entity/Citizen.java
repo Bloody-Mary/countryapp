@@ -30,7 +30,4 @@ public class Citizen {
     public String toString() {
         return "Гражданин " + id + ": " + firstName + " " + lastName + ", Возраст: " + age;
     }
-
-
 }
-
