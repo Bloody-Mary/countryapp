@@ -56,7 +56,7 @@ public class Country {
 
     private void generateCitizens() {
         Random random = new Random();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             int id = i + 1;
             String firstName = generateRandomName();
             String lastName = generateRandomName();
