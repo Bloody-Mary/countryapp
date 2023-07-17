@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/Citizen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -337,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689596206682</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated class Citizen and added testng to file pom.xml">
+      <option name="closed" value="true" />
+      <created>1689604806924</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1689604806924</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -362,7 +368,8 @@
     <MESSAGE value="Moved class District from .country.model package to country.model.entity package" />
     <MESSAGE value="Created class MainView" />
     <MESSAGE value="Created class CountryTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class CountryTest" />
+    <MESSAGE value="Updated class Citizen and added testng to file pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated class Citizen and added testng to file pom.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
