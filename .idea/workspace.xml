@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="Added new methos test file CountryTest">
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" afterDir="false" />
+    <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <recent name="ru.babushkina.countryapp.model.util" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CountryTest.testToString">
+  <component name="RunManager" selected="TestNG.CountryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.babushkina.countryapp.model.entity.Main" />
       <module name="countryapp" />
@@ -153,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CountryTest.testToString" />
         <item itemvalue="TestNG.CountryTest" />
+        <item itemvalue="TestNG.CountryTest.testToString" />
         <item itemvalue="JUnit.CountryTest" />
         <item itemvalue="TestNG.CitizenTest" />
         <item itemvalue="Application.ru.babushkina.countryapp._main.Main" />
@@ -402,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689627002289</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Updated test file CountryTest">
+      <option name="closed" value="true" />
+      <created>1689627353832</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1689627353832</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -428,9 +437,9 @@
     <MESSAGE value="Created class CountryTest" />
     <MESSAGE value="Updated class Citizen and added testng to file pom.xml" />
     <MESSAGE value="Created test file CitizenTest" />
-    <MESSAGE value="Updated test file CountryTest" />
     <MESSAGE value="Updated class Country" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated class Country" />
+    <MESSAGE value="Updated test file CountryTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated test file CountryTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
