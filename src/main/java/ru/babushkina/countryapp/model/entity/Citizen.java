@@ -1,4 +1,4 @@
-package ru.babushkina.countryapp.model;
+package ru.babushkina.countryapp.model.entity;
 
 public class Citizen {
     private final int id;
