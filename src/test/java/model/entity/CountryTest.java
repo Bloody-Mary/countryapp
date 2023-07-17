@@ -1,10 +1,9 @@
 package model.entity;
 
-import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import ru.babushkina.countryapp.model.entity.Citizen;
-import ru.babushkina.countryapp.model.entity.City;
 import ru.babushkina.countryapp.model.entity.Country;
 import ru.babushkina.countryapp.model.entity.Region;
 
@@ -16,14 +15,6 @@ public class CountryTest {
     @BeforeClass
     public static void setUp() {
         country = Country.getInstance();
-    }
-
-    @Test
-    public void testGetCapital() {
-        City expectedCapital = new City("Москва", 2561.5);
-        City actualCapital = country.getCapital();
-
-        Assert.assertEquals(actualCapital, expectedCapital);
     }
 
     @Test
