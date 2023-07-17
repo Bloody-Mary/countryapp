@@ -7,13 +7,8 @@
     <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/controller/MainController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/view/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/_main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/_main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/Citizen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/Country.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/District.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/District.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/countryapp/model/entity/Region.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,13 +265,44 @@
       <option name="project" value="LOCAL" />
       <updated>1689582330187</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated class Region">
+      <option name="closed" value="true" />
+      <created>1689594930290</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689594930290</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated class Citizen">
+      <option name="closed" value="true" />
+      <created>1689595035514</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689595035514</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated class City">
+      <option name="closed" value="true" />
+      <created>1689595134503</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689595134503</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated class Country">
+      <option name="closed" value="true" />
+      <created>1689595333483</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689595333483</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create class Citizen without link to Country" />
     <MESSAGE value="Created and updated class Country" />
-    <MESSAGE value="Updated class Country" />
     <MESSAGE value="Created and updated class City" />
     <MESSAGE value="Created and updated class District" />
     <MESSAGE value="Fixed class Country" />
@@ -287,7 +313,11 @@
     <MESSAGE value="Updated method toString in Country" />
     <MESSAGE value="Updated class Main" />
     <MESSAGE value="Changed for cycle from 0 - 100 to 0 - 1000 citizens in method generateCitizens class Country" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed for cycle from 0 - 100 to 0 - 1000 citizens in method generateCitizens class Country" />
+    <MESSAGE value="Updated class Region" />
+    <MESSAGE value="Updated class Citizen" />
+    <MESSAGE value="Updated class City" />
+    <MESSAGE value="Updated class Country" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated class Country" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
