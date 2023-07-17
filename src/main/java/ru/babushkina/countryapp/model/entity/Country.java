@@ -66,7 +66,7 @@ public class Country {
         }
     }
 
-    private String generateRandomName() {
+    public String generateRandomName() {
         Random random = new Random();
         int length = random.nextInt(10 - 5 + 1) + 5;
         StringBuilder sb = new StringBuilder(length);
@@ -77,7 +77,7 @@ public class Country {
         return sb.toString();
     }
 
-    private int generateRandomAge() {
+    public int generateRandomAge() {
         Random random = new Random();
         return random.nextInt(90 - 18 + 1) + 18;
     }

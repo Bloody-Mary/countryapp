@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="609ec723-724b-4123-a441-7407d7465ed8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/entity/CountryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -382,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689625937717</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Updated test file CountryTest">
+      <option name="closed" value="true" />
+      <created>1689626685715</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689626685715</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -408,9 +415,9 @@
     <MESSAGE value="Created class MainView" />
     <MESSAGE value="Created class CountryTest" />
     <MESSAGE value="Updated class Citizen and added testng to file pom.xml" />
-    <MESSAGE value="Updated test file CountryTest" />
     <MESSAGE value="Created test file CitizenTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created test file CitizenTest" />
+    <MESSAGE value="Updated test file CountryTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated test file CountryTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,6 +11,8 @@ import java.util.List;
 
 public class CountryTest {
     private static Country country;
+    private List<Citizen> citizens;
+
 
     @BeforeClass
     public static void setUp() {
@@ -39,6 +41,32 @@ public class CountryTest {
         String actualName = country.getName();
 
         Assert.assertEquals(actualName, expectedName);
+    }
+
+    @Test
+    public void testGenerateCitizens() {
+        country = Country.getInstance();
+        citizens = country.getCitizens();
+
+        Assert.assertEquals(citizens.size(), 1000);
+    }
+
+    @Test
+    public void testGenerateRandomName() {
+        country = Country.getInstance();
+        String randomName = country.generateRandomName();
+
+        Assert.assertNotNull(randomName);
+        Assert.assertFalse(randomName.isEmpty());
+        Assert.assertTrue(randomName.length() >= 5 && randomName.length() <= 10);
+    }
+
+    @Test
+    public void testGenerateRandomAge() {
+        country = Country.getInstance();
+        int randomAge = country.generateRandomAge();
+
+        Assert.assertTrue(randomAge >= 18 && randomAge <= 90);
     }
 
     @Test
