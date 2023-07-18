@@ -9,31 +9,11 @@ import java.util.List;
 
 public class CountryTest {
     private static Country country;
-    private static Region region;
-    private static City city;
-    private static District district;
-    private static Citizen citizen1;
-    private static Citizen citizen2;
-    private static Citizen citizen3;
-    private static Citizen citizen4;
-    private static Citizen citizen5;
 
 
     @BeforeClass
     public static void setUp() {
         country = Country.getInstance();
-        region = new Region("Краснодарский край", 75485, "Краснодар");
-        city = new City("Краснодар", 342);
-        district = new District("Центральный", 22);
-
-        citizen1 = new Citizen(5, "hfbvnfjd", "qjsbs", 37, country);
-        citizen2 = new Citizen(48, "John", "hgana", 26, country);
-        citizen3 = new Citizen(426, "hbdbq", "Anderson", 58, country);
-        citizen4 = new Citizen(867, "птабыд", "тьвбыы", 55, country);
-        citizen5 = new Citizen(555, "птаффыс", "hfnms",19, country);
-
-        country.getCitizens().addAll(List.of(citizen1, citizen2, citizen3, citizen4, citizen5));
-        city.getDistricts().add(district);
     }
 
     @Test
@@ -67,7 +47,7 @@ public class CountryTest {
         Assert.assertEquals(region1.getArea(), expectedRegion1Area);
         Assert.assertEquals(region1.getCenter(), expectedRegion1Capital);
 
-        Region region2 = regions.get(0);
+        Region region2 = regions.get(1);
         String expectedRegion2Name = "Смоленская область";
         int expectedRegion2Area = 49800;
         String expectedRegion2Capital = "Смоленск";
@@ -75,7 +55,7 @@ public class CountryTest {
         Assert.assertEquals(region2.getArea(), expectedRegion2Area);
         Assert.assertEquals(region2.getCenter(), expectedRegion2Capital);
 
-        Region region3 = regions.get(0);
+        Region region3 = regions.get(2);
         String expectedRegion3Name = "Ленинградская область";
         int expectedRegion3Area = 83900;
         String expectedRegion3Capital = "Санкт-Петербург";
@@ -83,7 +63,7 @@ public class CountryTest {
         Assert.assertEquals(region3.getArea(), expectedRegion3Area);
         Assert.assertEquals(region3.getCenter(), expectedRegion3Capital);
 
-        Region region4 = regions.get(0);
+        Region region4 = regions.get(3);
         String expectedRegion4Name = "Новосибирская область";
         int expectedRegion4Area = 177800;
         String expectedRegion4Capital = "Новосибирск";
@@ -91,7 +71,7 @@ public class CountryTest {
         Assert.assertEquals(region4.getArea(), expectedRegion4Area);
         Assert.assertEquals(region4.getCenter(), expectedRegion4Capital);
 
-        Region region5 = regions.get(0);
+        Region region5 = regions.get(4);
         String expectedRegion5Name = "Магаданская область";
         int expectedRegion5Area = 462464;
         String expectedRegion5Capital = "Магадан";
