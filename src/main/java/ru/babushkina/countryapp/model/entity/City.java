@@ -1,5 +1,7 @@
 package ru.babushkina.countryapp.model.entity;
 
+import java.util.List;
+
 public class City {
     private final String name;
     private final double area;
@@ -15,5 +17,9 @@ public class City {
 
     public double getArea() {
         return area;
+    }
+
+    public <E> List<E> getDistricts() {
+        return null;
     }
 }
