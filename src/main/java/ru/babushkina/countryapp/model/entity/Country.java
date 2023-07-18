@@ -6,14 +6,14 @@ import java.util.Random;
 
 public class Country {
     private static Country instance;
-    private final String name;
-    private final City capital;
+    private String name;
+    private City city;
     private final List<Region> regions;
     private final List<Citizen> citizens;
 
     private Country(String name, City capital, List<Region> regions) {
         this.name = name;
-        this.capital = capital;
+        this.city = capital;
         this.regions = regions;
         this.citizens = new ArrayList<>();
         generateCitizens();
@@ -37,9 +37,17 @@ public class Country {
         }
         return instance;
     }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    public City getCapital() {
-        return capital;
+    public void setCity(City city) {
+        this.city = city;
+    }
+
+    public City getCity() {
+        return city;
     }
 
     public List<Region> getRegions() {
@@ -53,6 +61,8 @@ public class Country {
     public String getName() {
         return name;
     }
+    
+    
 
     private void generateCitizens() {
         Random random = new Random();
@@ -95,7 +105,7 @@ public class Country {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Страна: ").append(name).append("\n");
-        sb.append("Столица: ").append(capital.getName()).append("\n");
+        sb.append("Столица: ").append(city.getName()).append("\n");
         sb.append("Регионы:\n");
         for (Region region : regions) {
             sb.append("  - ").append(region.getName()).append("\n");
