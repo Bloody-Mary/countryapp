@@ -28,7 +28,7 @@ public class MainController {
                     System.out.println(country.toString());
                     break;
                 case 2:
-                    System.out.println("Столица: " + country.getCapital().getName());
+                    System.out.println("Столица: " + country.getCity().getName());
                     break;
 
                 case 3:
